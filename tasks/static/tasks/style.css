@@ -1,0 +1,95 @@
+/* General Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Task List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ecf0f1;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #d0d7de;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/* Empty list message */
+ul li:empty {
+    color: #999;
+    font-style: italic;
+}
